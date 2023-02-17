@@ -11,7 +11,9 @@ import SwiftUI
 struct Aisle_Assignment_iOSApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                PhoneAuthView()
+            }
         }
     }
 }

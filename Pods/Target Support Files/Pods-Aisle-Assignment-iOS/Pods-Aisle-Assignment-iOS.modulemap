@@ -1,0 +1,6 @@
+framework module Pods_Aisle_Assignment_iOS {
+  umbrella header "Pods-Aisle-Assignment-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

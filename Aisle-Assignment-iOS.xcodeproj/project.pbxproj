@@ -8,17 +8,50 @@
 
 /* Begin PBXBuildFile section */
 		4D1E932F299CF1BB0004C75B /* Aisle_Assignment_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E932E299CF1BB0004C75B /* Aisle_Assignment_iOSApp.swift */; };
-		4D1E9331299CF1BB0004C75B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E9330299CF1BB0004C75B /* ContentView.swift */; };
 		4D1E9333299CF1BD0004C75B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D1E9332299CF1BD0004C75B /* Assets.xcassets */; };
 		4D1E9336299CF1BD0004C75B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D1E9335299CF1BD0004C75B /* Preview Assets.xcassets */; };
+		4D1E9341299CF6220004C75B /* PhoneAuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E9340299CF6220004C75B /* PhoneAuthView.swift */; };
+		4D1E9343299CF8A00004C75B /* LoginAuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E9342299CF8A00004C75B /* LoginAuthViewModel.swift */; };
+		4D1E934A299D87120004C75B /* PhoneNoStatusResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E9349299D87120004C75B /* PhoneNoStatusResponse.swift */; };
+		4D1E934C299D876B0004C75B /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E934B299D876B0004C75B /* APIManager.swift */; };
+		4D1E934E299D87E30004C75B /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E934D299D87E30004C75B /* Service.swift */; };
+		4D73DE85299E3075003756FB /* OTPStatusResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D73DE84299E3075003756FB /* OTPStatusResponse.swift */; };
+		4D73DE87299E355F003756FB /* OTPAuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D73DE86299E355F003756FB /* OTPAuthView.swift */; };
+		4D73DEA8299E3B1C003756FB /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D73DE8A299E3B1B003756FB /* Inter-Medium.ttf */; };
+		4D73DEB3299E3B1C003756FB /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D73DE95299E3B1B003756FB /* Inter-Bold.ttf */; };
+		4D73DEBD299E3B1C003756FB /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D73DE9F299E3B1B003756FB /* Inter-ExtraBold.ttf */; };
+		4D73DEBE299E3B1C003756FB /* Gilroy-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D73DEA0299E3B1B003756FB /* Gilroy-SemiBold.ttf */; };
+		4D73DEC6299E5817003756FB /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D73DEC5299E5817003756FB /* TabBarView.swift */; };
+		4D73DEC9299ECFB7003756FB /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D73DEC8299ECFB7003756FB /* NotesView.swift */; };
+		4DD3098B299EDF3D00244724 /* Gilroy-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4DD3098A299EDF3D00244724 /* Gilroy-ExtraBold.ttf */; };
+		4DD30991299F0E4300244724 /* NotesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD30990299F0E4300244724 /* NotesViewModel.swift */; };
+		6CD34400160D8CA4BD0262CD /* Pods_Aisle_Assignment_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C5A2E99F6F21D6EBF8AE5C /* Pods_Aisle_Assignment_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00A213A96AFAFFF302C3DED4 /* Pods-Aisle-Assignment-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aisle-Assignment-iOS.release.xcconfig"; path = "Target Support Files/Pods-Aisle-Assignment-iOS/Pods-Aisle-Assignment-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		03C5A2E99F6F21D6EBF8AE5C /* Pods_Aisle_Assignment_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aisle_Assignment_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		310A90FE9240241D532BE9D5 /* Pods-Aisle-Assignment-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aisle-Assignment-iOS.debug.xcconfig"; path = "Target Support Files/Pods-Aisle-Assignment-iOS/Pods-Aisle-Assignment-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		4D1E932B299CF1BB0004C75B /* Aisle-Assignment-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aisle-Assignment-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D1E932E299CF1BB0004C75B /* Aisle_Assignment_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aisle_Assignment_iOSApp.swift; sourceTree = "<group>"; };
-		4D1E9330299CF1BB0004C75B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4D1E9332299CF1BD0004C75B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D1E9335299CF1BD0004C75B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4D1E9340299CF6220004C75B /* PhoneAuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAuthView.swift; sourceTree = "<group>"; };
+		4D1E9342299CF8A00004C75B /* LoginAuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAuthViewModel.swift; sourceTree = "<group>"; };
+		4D1E9349299D87120004C75B /* PhoneNoStatusResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNoStatusResponse.swift; sourceTree = "<group>"; };
+		4D1E934B299D876B0004C75B /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		4D1E934D299D87E30004C75B /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		4D73DE84299E3075003756FB /* OTPStatusResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPStatusResponse.swift; sourceTree = "<group>"; };
+		4D73DE86299E355F003756FB /* OTPAuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPAuthView.swift; sourceTree = "<group>"; };
+		4D73DE8A299E3B1B003756FB /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		4D73DE95299E3B1B003756FB /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		4D73DE9F299E3B1B003756FB /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		4D73DEA0299E3B1B003756FB /* Gilroy-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-SemiBold.ttf"; sourceTree = "<group>"; };
+		4D73DEC5299E5817003756FB /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		4D73DEC8299ECFB7003756FB /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
+		4DD3098A299EDF3D00244724 /* Gilroy-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-ExtraBold.ttf"; sourceTree = "<group>"; };
+		4DD3098E299EE2FA00244724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4DD30990299F0E4300244724 /* NotesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CD34400160D8CA4BD0262CD /* Pods_Aisle_Assignment_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +71,8 @@
 			children = (
 				4D1E932D299CF1BB0004C75B /* Aisle-Assignment-iOS */,
 				4D1E932C299CF1BB0004C75B /* Products */,
+				CF91B8B4A579F56E39CE12F5 /* Pods */,
+				5FE59D4A82CD6EEEF7B17B21 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,9 +87,14 @@
 		4D1E932D299CF1BB0004C75B /* Aisle-Assignment-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				4DD3098E299EE2FA00244724 /* Info.plist */,
+				4D73DE88299E3B1B003756FB /* Fonts */,
+				4D73DE82299E0FAD003756FB /* Resources */,
+				4D1E933E299CF42B0004C75B /* Managers */,
+				4D1E9346299D6AFB0004C75B /* Models */,
+				4D1E933C299CF4160004C75B /* Views */,
+				4D1E934F299D8DA00004C75B /* ViewModels */,
 				4D1E932E299CF1BB0004C75B /* Aisle_Assignment_iOSApp.swift */,
-				4D1E9330299CF1BB0004C75B /* ContentView.swift */,
-				4D1E9332299CF1BD0004C75B /* Assets.xcassets */,
 				4D1E9334299CF1BD0004C75B /* Preview Content */,
 			);
 			path = "Aisle-Assignment-iOS";
@@ -67,6 +108,129 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		4D1E933C299CF4160004C75B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4D1E9344299D6AD20004C75B /* LoginAuth */,
+				4D73DE7F299E0763003756FB /* Home */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4D1E933E299CF42B0004C75B /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				4D1E934B299D876B0004C75B /* APIManager.swift */,
+				4D1E934D299D87E30004C75B /* Service.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		4D1E9344299D6AD20004C75B /* LoginAuth */ = {
+			isa = PBXGroup;
+			children = (
+				4D1E9340299CF6220004C75B /* PhoneAuthView.swift */,
+				4D73DE86299E355F003756FB /* OTPAuthView.swift */,
+			);
+			path = LoginAuth;
+			sourceTree = "<group>";
+		};
+		4D1E9346299D6AFB0004C75B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4DD30992299F144200244724 /* Notes */,
+				4D73DEC7299E58C1003756FB /* LoginAuth */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4D1E934F299D8DA00004C75B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4D73DE83299E1147003756FB /* LoginAuth */,
+				4DD3098F299F0E1C00244724 /* Notes */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4D73DE7F299E0763003756FB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4D73DEC5299E5817003756FB /* TabBarView.swift */,
+				4D73DEC8299ECFB7003756FB /* NotesView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4D73DE82299E0FAD003756FB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4D1E9332299CF1BD0004C75B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4D73DE83299E1147003756FB /* LoginAuth */ = {
+			isa = PBXGroup;
+			children = (
+				4D1E9342299CF8A00004C75B /* LoginAuthViewModel.swift */,
+			);
+			path = LoginAuth;
+			sourceTree = "<group>";
+		};
+		4D73DE88299E3B1B003756FB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4DD3098A299EDF3D00244724 /* Gilroy-ExtraBold.ttf */,
+				4D73DEA0299E3B1B003756FB /* Gilroy-SemiBold.ttf */,
+				4D73DE95299E3B1B003756FB /* Inter-Bold.ttf */,
+				4D73DE9F299E3B1B003756FB /* Inter-ExtraBold.ttf */,
+				4D73DE8A299E3B1B003756FB /* Inter-Medium.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		4D73DEC7299E58C1003756FB /* LoginAuth */ = {
+			isa = PBXGroup;
+			children = (
+				4D1E9349299D87120004C75B /* PhoneNoStatusResponse.swift */,
+				4D73DE84299E3075003756FB /* OTPStatusResponse.swift */,
+			);
+			path = LoginAuth;
+			sourceTree = "<group>";
+		};
+		4DD3098F299F0E1C00244724 /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				4DD30990299F0E4300244724 /* NotesViewModel.swift */,
+			);
+			path = Notes;
+			sourceTree = "<group>";
+		};
+		4DD30992299F144200244724 /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Notes;
+			sourceTree = "<group>";
+		};
+		5FE59D4A82CD6EEEF7B17B21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03C5A2E99F6F21D6EBF8AE5C /* Pods_Aisle_Assignment_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF91B8B4A579F56E39CE12F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				310A90FE9240241D532BE9D5 /* Pods-Aisle-Assignment-iOS.debug.xcconfig */,
+				00A213A96AFAFFF302C3DED4 /* Pods-Aisle-Assignment-iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +238,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D1E9339299CF1BD0004C75B /* Build configuration list for PBXNativeTarget "Aisle-Assignment-iOS" */;
 			buildPhases = (
+				27F3C923B16522FB2A091604 /* [CP] Check Pods Manifest.lock */,
 				4D1E9327299CF1BB0004C75B /* Sources */,
 				4D1E9328299CF1BB0004C75B /* Frameworks */,
 				4D1E9329299CF1BB0004C75B /* Resources */,
+				A8A6CE6D9037C9CBA64E7EDE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,20 +291,76 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D73DEA8299E3B1C003756FB /* Inter-Medium.ttf in Resources */,
 				4D1E9336299CF1BD0004C75B /* Preview Assets.xcassets in Resources */,
+				4D73DEB3299E3B1C003756FB /* Inter-Bold.ttf in Resources */,
+				4DD3098B299EDF3D00244724 /* Gilroy-ExtraBold.ttf in Resources */,
+				4D73DEBD299E3B1C003756FB /* Inter-ExtraBold.ttf in Resources */,
 				4D1E9333299CF1BD0004C75B /* Assets.xcassets in Resources */,
+				4D73DEBE299E3B1C003756FB /* Gilroy-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27F3C923B16522FB2A091604 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Aisle-Assignment-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8A6CE6D9037C9CBA64E7EDE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Aisle-Assignment-iOS/Pods-Aisle-Assignment-iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Aisle-Assignment-iOS/Pods-Aisle-Assignment-iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Aisle-Assignment-iOS/Pods-Aisle-Assignment-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4D1E9327299CF1BB0004C75B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D1E9331299CF1BB0004C75B /* ContentView.swift in Sources */,
+				4D73DEC6299E5817003756FB /* TabBarView.swift in Sources */,
+				4D1E934A299D87120004C75B /* PhoneNoStatusResponse.swift in Sources */,
+				4D73DEC9299ECFB7003756FB /* NotesView.swift in Sources */,
+				4DD30991299F0E4300244724 /* NotesViewModel.swift in Sources */,
 				4D1E932F299CF1BB0004C75B /* Aisle_Assignment_iOSApp.swift in Sources */,
+				4D1E9343299CF8A00004C75B /* LoginAuthViewModel.swift in Sources */,
+				4D1E9341299CF6220004C75B /* PhoneAuthView.swift in Sources */,
+				4D1E934E299D87E30004C75B /* Service.swift in Sources */,
+				4D1E934C299D876B0004C75B /* APIManager.swift in Sources */,
+				4D73DE87299E355F003756FB /* OTPAuthView.swift in Sources */,
+				4D73DE85299E3075003756FB /* OTPStatusResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,19 +483,26 @@
 		};
 		4D1E933A299CF1BD0004C75B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 310A90FE9240241D532BE9D5 /* Pods-Aisle-Assignment-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Aisle-Assignment-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = AMJ3KHQ4M5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Aisle-Assignment-iOS/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Aisle;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -281,27 +510,38 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.arifashraf.Aisle-Assignment-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		4D1E933B299CF1BD0004C75B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00A213A96AFAFFF302C3DED4 /* Pods-Aisle-Assignment-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Aisle-Assignment-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = AMJ3KHQ4M5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Aisle-Assignment-iOS/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Aisle;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,9 +549,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.arifashraf.Aisle-Assignment-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
