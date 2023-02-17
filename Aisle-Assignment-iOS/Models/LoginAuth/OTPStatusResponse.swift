@@ -9,7 +9,11 @@ import Foundation
 
 struct OTPStatusResponse: Codable {
     
+    //MARK: - Properties
+    
     let token: String?
+    
+    //MARK: - Enum
     
     enum CodingKeys: String, CodingKey {
         case token = "token"

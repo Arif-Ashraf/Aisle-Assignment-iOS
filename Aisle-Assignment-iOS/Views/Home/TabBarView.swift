@@ -9,8 +9,12 @@ import SwiftUI
 
 struct TabBarView: View {
     
+    //MARK: - Wrapped Properties
+    
     @State private var selectedTab = 1
     @State var token: String = ""
+    
+    //MARK: - Notes View Model Instance
     
     @ObservedObject var notesVM = NotesViewModel()
     
@@ -32,6 +36,9 @@ struct TabBarView: View {
                 .tag(0)
             
             NotesView()
+                .onAppear {
+                        notesVM.getNotes(token: token)
+                }
                 .tabItem {
                     Image(systemName: "envelope.fill")
                     Text("Notes")
@@ -54,14 +61,13 @@ struct TabBarView: View {
                 }
                 .tag(3)
         }
-        .onAppear {
-                notesVM.getNotes(token: token)
-        }
         .navigationBarHidden(true)
         .tint(.black)
         
     }
 }
+
+//MARK: - Preview
 
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {

@@ -9,16 +9,22 @@ import SwiftUI
 
 struct OTPAuthView: View {
     
+    //MARK: - Wrapped Properties
+    
     @State var otp: String = ""
     @State var isActive: Bool = true
     @State var phoneNo: String = "+91 999999999"
     @State var countdown = 60
+    
+    //MARK: - LoginAuthViewModel Instance
     
     @ObservedObject var authVM = LoginAuthViewModel()
     
     @State var auth_token = ""
     
     var body: some View {
+        
+        //MARK: - View Body
         
         VStack(alignment: .leading) {
             HStack(spacing: -8) {
@@ -83,6 +89,7 @@ struct OTPAuthView: View {
                         }
                     }
                 
+                //Condition to get token response
                 
                 if authVM.otpStatusResponse != nil && (authVM.otpStatusResponse?.token != nil) {
                     NavigationLink(destination: TabBarView(token: authVM.otpStatusResponse?.token ?? "")
@@ -111,6 +118,8 @@ struct OTPAuthView: View {
         
     }
 }
+
+//MARK: - Preview
 
 struct OTPView_Previews: PreviewProvider {
     static var previews: some View {

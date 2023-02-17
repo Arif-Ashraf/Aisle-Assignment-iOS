@@ -15,6 +15,8 @@ struct PhoneAuthView: View {
     @State var phoneNumber: String = ""
     @State var isActive: Bool = true
     
+    //MARK: - LoginAuthViewModel Instance Variable
+    
     @ObservedObject var authVM = LoginAuthViewModel()
     
     var body: some View {
@@ -95,6 +97,8 @@ struct PhoneAuthView: View {
         
     }
 }
+
+//MARK: - Preview
 
 struct LoginAuthenticationView_Previews: PreviewProvider {
     static var previews: some View {

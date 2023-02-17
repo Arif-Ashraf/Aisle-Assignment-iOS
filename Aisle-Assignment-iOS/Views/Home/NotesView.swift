@@ -8,9 +8,13 @@
 import SwiftUI
 
 struct NotesView: View {
+    
     var body: some View {
+        
         NavigationView {
+            
             ScrollView {
+                
                 VStack(alignment: .center) {
                     
                     
@@ -25,6 +29,7 @@ struct NotesView: View {
                             .cornerRadius(15)
                         
                         VStack(alignment:.leading){
+                            
                             Text("Meena, 23")
                                 .foregroundColor(.white)
                                 .font(.custom("Gilroy-ExtraBold", size: 22))
@@ -32,10 +37,13 @@ struct NotesView: View {
                             Text("Tap to review 50+ notes")
                                 .foregroundColor(Color.white)
                                 .font(.custom("Gilroy-SemiBold", size: 22))
+                            
                         }.padding()
+                        
                     }
                     
                     VStack(alignment: .leading) {
+                        
                         Text("Interested In You")
                             .frame(width: 330, height: 27, alignment: .leading)
                             .font(.custom("Gilroy-ExtraBold", size: 22))
@@ -47,53 +55,74 @@ struct NotesView: View {
                                 .font(.custom("Gilroy-SemiBold", size: 15))
                             
                             Button {
+                                
                                 print("Upgrade Button")
+                                
                             } label: {
+                                
                                 Text("Upgrade")
                                     .frame(width: 62, height: 23, alignment: .topTrailing)
                                     .font(.custom("Gilroy-ExtraBold", size: 15))
                                     .background(RoundedRectangle(cornerRadius: 24.5)
                                         .fill(Color(red: 252/255, green: 223/255, blue: 3/255))
                                         .frame(width: 113, height: 50))
+                                
                             }
                             .tint(.black)
                             
                         }
+                        
                     }.padding(.top,5)
                     
                     HStack{
+                        
                         ZStack(alignment: .bottomLeading){
+                            
                             Image("pic2")
                                 .cornerRadius(16).frame(width: 185, height: 255)
+                            
                             VStack(alignment:.leading){
+                                
                                 Text("Teena").font(.custom("Gilroy-SemiBold", size: 18))
                                     .foregroundColor(Color.white)
+                                
                             }.padding()
+                            
                         }
+                        
                         ZStack(alignment: .bottomLeading){
+                            
                             Image("pic3")
                                 .cornerRadius(16).frame(width: 185, height: 255)
+                            
                             VStack(alignment:.leading){
+                                
                                 Text("Beena").font(.custom("Gilroy-SemiBold", size: 18))
                                     .foregroundColor(Color.white)
+                                
                             }.padding()
+                            
                         }
+                        
                     }.padding(.top,-50)
                     
-                    
                 }
-                Spacer()
-                    .navigationBarHidden(false)
-                    .navigationTitle("Notes")
-                    .navigationBarTitleDisplayMode(.inline)
-                    .safeAreaInset(edge: .top, content: {})
+                .navigationBarHidden(false)
+                .navigationTitle("Notes")
+                .navigationBarTitleDisplayMode(.inline)
+                .safeAreaInset(edge: .top, content: {})
                 
+                Spacer()
                 
             }
+            
         }
         
     }
+    
 }
+
+//MARK: - Preview
 
 struct NotesView_Previews: PreviewProvider {
     static var previews: some View {

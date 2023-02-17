@@ -138,7 +138,6 @@
 		4D1E9346299D6AFB0004C75B /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				4DD30992299F144200244724 /* Notes */,
 				4D73DEC7299E58C1003756FB /* LoginAuth */,
 			);
 			path = Models;
@@ -203,13 +202,6 @@
 			isa = PBXGroup;
 			children = (
 				4DD30990299F0E4300244724 /* NotesViewModel.swift */,
-			);
-			path = Notes;
-			sourceTree = "<group>";
-		};
-		4DD30992299F144200244724 /* Notes */ = {
-			isa = PBXGroup;
-			children = (
 			);
 			path = Notes;
 			sourceTree = "<group>";

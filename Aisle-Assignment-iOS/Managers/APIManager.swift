@@ -10,8 +10,12 @@ import Alamofire
 
 class APIManager {
     
+    //MARK: - APIManager Singleton
+    
     static let shared = APIManager()
     private init(){}
+    
+    //MARK: - Reusable POST Method using Alamofire
     
     func postRequest(url: String, params: [String: Any], success: @escaping (Data) -> Void, failure: @escaping (Error) -> Void) {
         
@@ -30,6 +34,8 @@ class APIManager {
             }
         }
     }
+    
+    //MARK: - Reusable GET Method using Alamofire
     
     func getRequest(_ url: String, headers: [String:String], success: @escaping (Data) -> Void, failure: @escaping (Error) -> Void) {
         

@@ -9,6 +9,8 @@ import Foundation
 
 struct Service {
     
+    //MARK: - API EndPoints
+    
     static let base_url = "https://app.aisle.co/V1"
     
     static let phone_number_login_url = "/users/phone_number_login"

@@ -9,7 +9,12 @@ import Foundation
 
 struct PhoneNoStatusResponse: Codable {
     
+    //MARK: - Properties
+    
     var status: Bool
+    
+    
+    //MARK: - Enum
     
     enum CodingKeys: String, CodingKey {
         case status
