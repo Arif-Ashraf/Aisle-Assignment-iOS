@@ -20,13 +20,13 @@ struct PhoneAuthView: View {
         VStack(alignment: .leading) {
             Text("Get OTP")
                 .frame(width: 73, height: 22, alignment: .leading)
-                .font(.system(size: 18, weight: .medium))
+                .font(.custom("Inter-Medium", size: 18))
             
             VStack(alignment: .leading) {
                 Text("Enter Your")
                 Text("Phone Number")
             }
-            .font(.system(size: 30, weight: .heavy))
+            .font(.custom("Inter-ExtraBold", size: 30))
             .frame(width: 220, height: 72, alignment: .topLeading)
             
             
@@ -34,9 +34,7 @@ struct PhoneAuthView: View {
                 TextField("+91", text: $countryCode)
                     .frame(width: 64, height: 36, alignment: .leading)
                     .multilineTextAlignment(.center)
-                    .font(
-                        .system(size: 18, weight: .bold, design: .default)
-                    )
+                    .font(.custom("Inter-Bold", size: 18))
                     .overlay(
                         RoundedRectangle(cornerRadius: 8)
                             .stroke(Color(red: 196/255, green: 196/255, blue: 196/255, opacity: 1), lineWidth: 1)
@@ -45,7 +43,7 @@ struct PhoneAuthView: View {
                 TextField("Phone Number", text: $phoneNumber)
                     .frame(width: 147, height: 36, alignment: .leading)
                     .multilineTextAlignment(.center)
-                    .font(.system(size: 18, weight: .bold))
+                    .font(.custom("Inter-Bold", size: 18))
                     .overlay(
                         RoundedRectangle(cornerRadius: 8)
                             .stroke(Color(red: 196/255, green: 196/255, blue: 196/255, opacity: 1), lineWidth: 1)
@@ -61,7 +59,7 @@ struct PhoneAuthView: View {
                 Text("Continue")
                     .foregroundColor(.black)
                     .frame(width: 63, height: 17)
-                    .font(.system(size: 14, weight: .bold, design: .default))
+                    .font(.custom("Inter-Bold", size: 14))
             }
             .background(
                 RoundedRectangle(cornerRadius: 22)

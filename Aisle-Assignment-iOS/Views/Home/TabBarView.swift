@@ -15,7 +15,7 @@ struct TabBarView: View {
     @ObservedObject var notesVM = NotesViewModel()
     
     init(token: String = "") {
-        self.token = token;
+        self.token = token
         UITabBar.appearance().backgroundColor = UIColor(Color.white)
         UITabBarItem.appearance().badgeColor =  UIColor(red: 140/255, green: 92/255, blue: 251/255, alpha: 1)
         
@@ -55,7 +55,6 @@ struct TabBarView: View {
                 .tag(3)
         }
         .onAppear {
-            print("Notes token: \(token)")
                 notesVM.getNotes(token: token)
         }
         .navigationBarHidden(true)

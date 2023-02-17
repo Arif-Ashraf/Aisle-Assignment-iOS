@@ -16,6 +16,7 @@ struct OTPAuthView: View {
     
     @ObservedObject var authVM = LoginAuthViewModel()
     
+    @State var auth_token = ""
     
     var body: some View {
         
@@ -23,7 +24,7 @@ struct OTPAuthView: View {
             HStack(spacing: -8) {
                 TextField("+91 \(phoneNo)", text: $phoneNo)
                     .frame(width: 152, height: 22, alignment: .leading)
-                    .font(.system(size: 18, weight: .regular))
+                    .font(.custom("Inter-Medium", size: 18))
                 
                 Image(systemName: "pencil")
                     .frame(width: 11.71, height: 11.71, alignment: .leading)
@@ -33,16 +34,14 @@ struct OTPAuthView: View {
                 Text("Enter The")
                 Text("OTP")
             }
-            .font(.system(size: 30, weight: .heavy))
+            .font(.custom("Inter-ExtraBold", size: 30))
             .frame(width: 144, height: 72, alignment: .topLeading)
             
             
             TextField("", text: $otp)
                 .frame(width: 78, height: 36, alignment: .leading)
                 .multilineTextAlignment(.center)
-                .font(
-                    .system(size: 18, weight: .bold, design: .default)
-                )
+                .font(.custom("Inter-Bold", size: 18))
                 .overlay(
                     RoundedRectangle(cornerRadius: 8)
                         .stroke(Color(red: 196/255, green: 196/255, blue: 196/255, opacity: 1), lineWidth: 1)
@@ -58,7 +57,7 @@ struct OTPAuthView: View {
                     Text("Continue")
                         .foregroundColor(.black)
                         .frame(width: 63, height: 17)
-                        .font(.system(size: 14, weight: .bold, design: .default))
+                        .font(.custom("Inter-Bold", size: 14))
                 }
                 .background(
                     RoundedRectangle(cornerRadius: 22)
@@ -72,7 +71,7 @@ struct OTPAuthView: View {
                 
                 Text("00:\(countdown)")
                     .frame(width: 50, height: 17, alignment: .center)
-                    .font(.system(size: 14, weight: .bold))
+                    .font(.custom("Inter-Bold", size: 14))
                     .padding(.top,10)
                     .onAppear {
                         Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { timer in
