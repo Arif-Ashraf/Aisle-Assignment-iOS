@@ -23,3 +23,4 @@ $ Run the project
   2. Framework: SwiftUI
   3. Architecture: MVVM,
   4. Third Party Library: Alamofire - installed using CocoaPods
+  5. Custom Fonts: Inter & Gilroy
