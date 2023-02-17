@@ -9,6 +9,8 @@ import SwiftUI
 
 struct PhoneAuthView: View {
     
+    //MARK: - Wrapped Properties
+    
     @State var countryCode: String = "+91"
     @State var phoneNumber: String = ""
     @State var isActive: Bool = true
