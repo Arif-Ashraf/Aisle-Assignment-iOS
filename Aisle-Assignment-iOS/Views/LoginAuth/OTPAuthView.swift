@@ -92,11 +92,13 @@ struct OTPAuthView: View {
                 //Condition to get token response
                 
                 if authVM.otpStatusResponse != nil && (authVM.otpStatusResponse?.token != nil) {
-                    NavigationLink(destination: TabBarView(token: authVM.otpStatusResponse?.token ?? "")
+                    NavigationLink(destination: TabBarView()
                         .navigationBarBackButtonHidden(true)
                         .onAppear(perform: {
+                            
                             if let token = authVM.otpStatusResponse?.token {
                                 debugPrint("Token: \(token)")
+                                NotesViewModel().getNotes(token: token)
                             }
                         }),
                                    isActive: $isActive) {

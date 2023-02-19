@@ -12,14 +12,12 @@ struct TabBarView: View {
     //MARK: - Wrapped Properties
     
     @State private var selectedTab = 1
-    @State var token: String = ""
     
     //MARK: - Notes View Model Instance
     
     @ObservedObject var notesVM = NotesViewModel()
     
-    init(token: String = "") {
-        self.token = token
+    init() {
         UITabBar.appearance().backgroundColor = UIColor(Color.white)
         UITabBarItem.appearance().badgeColor =  UIColor(red: 140/255, green: 92/255, blue: 251/255, alpha: 1)
         
@@ -36,9 +34,6 @@ struct TabBarView: View {
                 .tag(0)
             
             NotesView()
-                .onAppear {
-                        notesVM.getNotes(token: token)
-                }
                 .tabItem {
                     Image(systemName: "envelope.fill")
                     Text("Notes")
