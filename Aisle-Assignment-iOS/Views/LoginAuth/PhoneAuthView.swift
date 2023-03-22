@@ -56,9 +56,9 @@ struct PhoneAuthView: View {
             
              
             Button(action: {
-                DispatchQueue.main.async {
+//                DispatchQueue.main.async {
                     authVM.requestLogin(phoneNo: "\(countryCode)\(phoneNumber)")
-                }
+//                }
             }) {
                 Text("Continue")
                     .foregroundColor(.black)

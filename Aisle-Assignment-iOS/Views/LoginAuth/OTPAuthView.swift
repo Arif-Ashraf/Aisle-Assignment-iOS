@@ -56,9 +56,9 @@ struct OTPAuthView: View {
             
             HStack {
                 Button(action: {
-                    DispatchQueue.main.async {
+//                    DispatchQueue.main.async {
                         authVM.authenticateOTP(phoneNo: phoneNo, otp: otp)
-                    }
+//                    }
                 }) {
                     Text("Continue")
                         .foregroundColor(.black)

@@ -36,6 +36,7 @@ class LoginAuthViewModel: ObservableObject {
         APIManager.shared.postRequest(url: Service.base_url + Service.verify_otp_url, params: ["number": phoneNo, "otp": otp]) { response in
             do {
                 let results = try JSONDecoder().decode(OTPStatusResponse.self, from: response)
+                
                 DispatchQueue.main.async {
                     self.otpStatusResponse = results
                 }
